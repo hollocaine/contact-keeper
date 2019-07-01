@@ -9,7 +9,7 @@ const connectDB = () => {
       userCreateIndex: true,
       useFindAndModify: false
     })
-    .then(() => console.log('Mongo Connected'))
+    .then(() => console.log('Mongo Connected...'))
     .catch(err => {
       console.error(err.message);
       process.exit(1);
