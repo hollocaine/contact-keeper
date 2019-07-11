@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react';
-import uuid from 'uuid';
 import AuthContext from './AuthContext';
 import AuthReducer from './AuthReducer';
+import { uuid } from 'uuid';
 
 import {
   REGISTER_SUCCESS,
