@@ -3,7 +3,6 @@ import AuthContext from './authContext';
 import authReducer from './authReducer';
 import setAuthToken from '../../utils/setAuthToken';
 import axios from 'axios';
-import { uuid } from 'uuid';
 
 import {
   REGISTER_SUCCESS,

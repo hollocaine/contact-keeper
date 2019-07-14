@@ -42,6 +42,7 @@ const Register = props => {
         password
       });
     }
+
     console.log('Register submit');
   };
   return (

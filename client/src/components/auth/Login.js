@@ -49,7 +49,7 @@ const Login = props => {
               name="email"
               value={email}
               onChange={onChange}
-              requried
+              required
             />
           </div>
           <div className="form-group">
