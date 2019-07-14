@@ -5,7 +5,6 @@ const ContactFiltered = () => {
   const contactContext = useContext(ContactContext);
   const text = useRef('');
   const { filterContacts, clearFilter, filtered } = contactContext;
-  console.log(filtered);
   useEffect(() => {
     if (filtered === null) {
       text.current.value = '';
