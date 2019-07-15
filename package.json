@@ -8,12 +8,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
-<<<<<<< HEAD
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
-=======
-    "dev": "concurrently \"npm run server\" \"npm run client\""
->>>>>>> c3bf2e9760416230d95a8463188e8c9266996bae
   },
   "keywords": [],
   "author": "",
@@ -26,13 +22,9 @@
     "heroku": "^7.26.2",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.7",
-<<<<<<< HEAD
     "mongoose": "^5.6.1",
     "react": "^16.8.6",
     "react-transition-group": "^4.2.1"
-=======
-    "mongoose": "^5.6.1"
->>>>>>> c3bf2e9760416230d95a8463188e8c9266996bae
   },
   "devDependencies": {
     "concurrently": "^4.1.1",
