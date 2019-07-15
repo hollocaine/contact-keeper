@@ -31,6 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "proxy": "http://localhost:5000"
+=======
+  }
+>>>>>>> c3bf2e9760416230d95a8463188e8c9266996bae
 }
